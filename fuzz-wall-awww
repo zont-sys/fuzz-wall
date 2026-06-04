@@ -41,7 +41,7 @@ set_wallpaper() {
             swaybg -i "$WALL" -m fill &
             ;;
         swww)
-            swww img "$WALL" --transition-type fade ;;
+            awww img "$WALL" --transition-type fade ;;
         hyprpaper)
             hyprctl hyprpaper wallpaper ",$WALL" ;;
         feh)
